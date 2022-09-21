@@ -1,0 +1,49 @@
+1  whoami
+    2  exit
+    3  ls -l 
+    4  exit
+    5  ls -l
+    6  cat brighton 
+    7  echo upstate > newyork
+    8  echo h1 >> brighton 
+    9  exit
+   10  echo upstate > newyork
+   11  echo h1 >> brighton 
+   12  cat newyork 
+   13  cat brighton 
+   14  exit 
+   15  cd sgid
+   16  touch emptyfile
+   17  ls -l
+   18  exit
+   19  echo hello > file2
+   20  cat file2
+   21  cat file1
+   22  echo more >> file2
+   23  cat file2
+   24  echo more >> file1
+   25  rm file2
+   26  rm file1
+   27  exit 
+   28  ./pizza
+   29  exit
+   30  ./pizza
+   31  sudo addgroup pentester1
+   32  exit
+   33  history
+1  pwd
+    2  ls
+    3  cd bin 
+    4  cd~
+    5  cd ~
+    6  ls
+    7  john 
+    8  john
+    9  ls
+   10  cd 1
+   11  cd /bin
+   12  ls
+   13  sudo unshadow /etc/passwd /etc/shadow > rochester.txt
+   14  cat rochester.txt
+   15  sudo john --wordlist=/usr/share/john/password.lst --format=crypt rochester.txt
+   16  sudo john --show --format=crypt rochester.txt
